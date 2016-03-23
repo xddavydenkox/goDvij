@@ -6,11 +6,13 @@ body {
 li {
 	display: inline;
 }
-
+#logo {
+	background: url("../img/1.jpg") no-repeat center;
+	height:200px;
+}
 #Mynavbar {
-	position:fixed;
+	position:relative;
 	width:100%;
-	margin:0px;
 	text-align:center;
 	background:#000000;
 	border-bottom: 5px solid #00FF00;
@@ -53,7 +55,7 @@ li {
 	text-align: center;
 	background: rgba(140, 255, 102,0.2);
 	color:#00FF00;
-	 margin-left: auto ;
+	margin-left: auto ;
   	margin-right: auto ;
 }
 #vkLink {
@@ -74,6 +76,8 @@ li {
 	color:#00FF00;
 	background-color:rgba(0,0,0,0.3);
 	text-align: center;
+    margin-left: auto;
+  	margin-right: auto;
 }
 #countDownDD {
 	line-height: 0.9;

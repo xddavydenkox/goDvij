@@ -1,35 +1,26 @@
-<div controller = "HomePageCtrl" class="container" class="homePage">
-		<div class="row">
-		    <div class="col-sm-4" style="background-color: white;">4</div>
-		    <div class="col-sm-4" style="background-color: white;">8</div>
-		    <div class="col-sm-4" id="countDownDiv">
-		    	<div>
-		    		<div id="countDownDD">дней:</br><span>{{timeForEvent.days}}</span></div>
-		    		<div>
-			    		<div id="countDownHHMMSS">часов:</br><span>{{timeForEvent.hours}}</span></div>
-			    		<div id="countDownHHMMSS">мин:</br><span>{{timeForEvent.minutes}}</span></div>
-			    		<div id="countDownHHMMSS">сек:</br><span>{{timeForEvent.seconds}}</span></div>
-		    		</div>
-		    		<hr>
-		    		<p>Осталось до следующего заезда </p>
-		    	</div>
-		    </div>
-		</div>
+<div controller = "HomePageCtrl" class="homePage">
+<div class="container-fluid">
+	<div class="row" id="countDownDiv">
+	    		<div id="countDownDD">дней:</br><span>{{timeForEvent.days}}</span></div>
+	    		<div>
+		    		<div id="countDownHHMMSS">часов:</br><span>{{timeForEvent.hours}}</span></div>
+		    		<div id="countDownHHMMSS">мин:</br><span>{{timeForEvent.minutes}}</span></div>
+		    		<div id="countDownHHMMSS">сек:</br><span>{{timeForEvent.seconds}}</span></div>
+	    		</div>
+	    		<hr>
+	    		<p>Осталось до следующего заезда </p>
+	    </div>
+	    </div>
+	</div>
+</div>
+<div class="container">
 		<div class="row">
 		    <div id="vkLinkDiv">
 		    	<a id="vkLink" href="https://vk.com/dragobrat_09_24"><img src="img/vk-icon.png"></img>vkontakte</a>
 		    </div>
 		</div>
-		<div id="infoBlockDiv">
-			<div class="row">
-				<div class="col-sm-5">
-					<img style="height:200px; width:auto;" src="img/skipanorama.jpg"/>
-				</div>
-				<div class="col-sm-5 col-sm-offset-1">
-					<img style="height:200px; width:auto;" src="img/skipanorama.jpg"/>
-				</div>
-			</div>
-		</div>
 		<div id="infoBlockDiv"></div>
 		<div id="infoBlockDiv"></div>
+		<div id="infoBlockDiv"></div>
+</div>
 <div>
