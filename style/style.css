@@ -1,80 +1,153 @@
 body {
-	background: url("../img/snowBoarding.jpg") no-repeat center fixed;
-	background-size:cover;
-    width:100%; height:100%;
+    position:relative;
 }
-li {
-	display: inline;
-}
-#logo {
-	background: url("../img/1.jpg") no-repeat center;
-	height:200px;
-}
-#Mynavbar {
-	position:relative;
-	width:100%;
-	text-align:center;
-	background:#000000;
-	border-bottom: 5px solid #00FF00;
-	z-index:1;
+.headerPicture {
+	height:460px;
+	background:url('../img/mountainsPanorama4.jpg')no-repeat top left;
+	background-size: cover;
+	padding:0px;
 }
 
-#navbarOption {
-	position:relative;
-	top:25%;
-	font-size: 20px;
-	color:#00FF00;
-	margin:30px 20px;
-	padding:7px 80px;
-	font-family: "Courier New", monospace;
-	transition: 0.5s;
+blockquote {
+	color:white;
+	font-family: 'Poiret One', cursive;
+	font-size: 25px;
+	border-left: 1px solid white; 
 }
-#navbarOption:hover {
-	text-decoration:none;
-	background-color: #00FF00;
-	color:#000000;
-	border-radius: 50px;
-	animation: tabMove 0.6s forwards;
+
+.headerQuote {
+	background-color:rgba(38, 38, 38, 0.3);
+	height:460px;
+	padding-top: 70px;
+	padding-left:50px;
 }
-@keyframes tabMove {
-	from {top:0px;}
-	to {top:10px;}
+.myOrange{
+	color:orange;
 }
-.bottomLine {
-	width:100%;
-	border-top: solid 7px rgb(0, 255, 0);
+.myBold {
+	font-weight: bold;
+}
+.affix {
 	position: fixed;
-	bottom:0px;
+  	top: 0;
+  	width: 100%;
+  	z-index: 9999 !important;
+}
+.affix #actionTimeImg {
+	visibility: visible;
 }
 
-#vkLinkDiv {
-	margin-top: 10px;
-	height:60px;
-	line-height: 60px;
-	width:300px;
-	text-align: center;
-	background: rgba(140, 255, 102,0.2);
-	color:#00FF00;
-	margin-left: auto ;
-  	margin-right: auto ;
+.img-responsive {
+	display:block;
+	max-width: 100%;
+	height: auto;
 }
-#vkLink {
-	color: #b3ff99;
+#actionTimeImg {
+	visibility: hidden;
+	position: absolute;
+	top: -20px;
+}
+@media screen and (max-width: 600px) {
+  #actionTimeImg {
+    visibility: hidden;
+    display: none;
+  }
+  #section1 {
+  	padding: 0px;
+  }
+  #headerDiv {
+  	background-position: right;
+  }
+}
+ .navbar {
+      margin-bottom: 0px;
+ }
+ .navbar-nav {
+    width: 100%;
+    text-align: center;
+ }
+ .navbar-nav > li {
+  	float: none;
+  	display: inline-block;
+ }
+.affix ~ .container-fluid {
+     position: relative;
+}
+
+.navbar-inverse{
+	border-radius:0px;
+	border:none;
+	z-index:9999 !important;
+	border-bottom: 3px solid orange;
+	border-top: 3px solid orange;
+}
+.navbar-header img {
+	height: 250px; overflow: visible;
+}
+#myNavbar li {
+ 	font-size: 25px;
+ 	font-family: 'Jura', sans-serif;
+ 	font-variant: small-caps;
+}
+
+#myNavbar a {
+ text-align: center;
+ border-radius:0px 0px 4px 4px;
+ color:orange;
+ padding:20px 20px 0px 20px;
+ line-height: 40px;
+ transition-duration: 0.6s;
+}
+
+
+#myNavbar a:hover,
+#myNavbar a:active,
+#myNavbar a:focus {
+ background: orange !important;
+ color: black;
+ text-decoration:overline;
+}
+.comforta {
+	font-family: 'Comfortaa', cursive;
+}
+.poiret {
+	font-family: 'Poiret One', cursive;
+}
+.oNas {
+	font-family: 'Poiret One', cursive;
+	padding-bottom: 40px;
+	color: white;
+}
+.oNasTab {
+	color: orange;
+	font-family: 'Comfortaa', cursive;
 	font-size: 17px;
-	font-family: "Arial Black", sans-serif;
-  	display:inline-block;
-	vertical-align:middle;
-	text-decoration: none;
+	border-bottom: 1px solid orange;
 }
-#vkLink:hover {
-	opacity:0.6;
+
+.nav-tabs.nav-justified>li>a {
+	border-bottom: 1px solid orange;
+	border-radius: 50px 50px 0px 0px;
 }
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus,
+ .nav-tabs.nav-justified>li>a:hover,
+ .nav-tabs.nav-justified>li>a:active,
+ .nav-tabs.nav-justified>li>a:focus,
+ .nav-tabs.nav-justified>.active>a {
+ 	background-color: rgba(255,255,255,0);
+ 	border-bottom: 0px;
+ 	border-color: orange;
+ 	color: orange;
+ 	font-size: 23px;
+ 	transition: 0.5s;
+ }
+
 #countDownDiv {
 	text-transform: uppercase;
 	font-family: "Century Gothic";
 	border-radius: 10px;
-	color:#00FF00;
-	background-color:rgba(0,0,0,0.3);
+	color:#ffffff;
+	background-color:rgba(0, 102, 255,0.7);
 	text-align: center;
     margin-left: auto;
   	margin-right: auto;
@@ -100,8 +173,7 @@ li {
 }
 
 #infoBlockDiv {
-	height:1000px; 
-	background-color:rgba(0,0,0,0.6);
-	border-radius: 10px;
-	margin-top: 10px;
+	height:500px; 
+	width:100%;
+	background-color:#000660;
 }

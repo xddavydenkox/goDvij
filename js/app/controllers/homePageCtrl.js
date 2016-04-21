@@ -30,5 +30,6 @@ angular.module('goDvijApp').controller('HomePageCtrl', ['$scope', '$interval',
 			   	'seconds': seconds
 		  	};	
 		}
+
 	}
 ]);
