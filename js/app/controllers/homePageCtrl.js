@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('goDvijApp').controller('HomePageCtrl', ['$scope', '$interval',
+angular.module('actionTime').controller('HomePageCtrl', ['$scope', '$interval',
 	function($scope, $interval) {
 
 		$scope.timeForEvent = {};

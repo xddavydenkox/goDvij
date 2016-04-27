@@ -52,8 +52,9 @@ blockquote {
     visibility: hidden;
     display: none;
   }
-  #section1 {
-  	padding: 0px;
+  #aboutUs {
+  	padding-left: 0px;
+  	padding-right: 0px;
   }
   #headerDiv {
   	background-position: right;
@@ -98,8 +99,6 @@ blockquote {
  line-height: 40px;
  transition-duration: 0.6s;
 }
-
-
 #myNavbar a:hover,
 #myNavbar a:active,
 #myNavbar a:focus {
@@ -114,9 +113,17 @@ blockquote {
 	font-family: 'Poiret One', cursive;
 }
 .oNas {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Comfortaa', cursive;
 	padding-bottom: 40px;
 	color: white;
+}
+
+#aboutUs {
+	 background-image: url('../img/black.jpg');
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 padding-top: 30px;
+	 padding-bottom: 30px;
 }
 .oNasTab {
 	color: orange;
@@ -138,7 +145,6 @@ blockquote {
  	border-bottom: 0px;
  	border-color: orange;
  	color: orange;
- 	font-size: 23px;
  	transition: 0.5s;
  }
 
@@ -176,4 +182,23 @@ blockquote {
 	height:500px; 
 	width:100%;
 	background-color:#000660;
+}
+.btn {
+	background-color: orange;
+	border: 2px solid red;
+	color: white;
+}
+.btn:hover {
+	background-color: red;
+	border: 2px solid orange;
+	color: white;
+}
+.btn:active,
+.btn:focus {
+	background-color: red;
+	color: white;
+}
+div.thumbnail img:hover {
+	opacity: 0.8;
+	box-shadow: 0 7px 9px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
