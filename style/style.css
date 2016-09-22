@@ -8,12 +8,6 @@ body {
 	padding:0px;
 }
 
-blockquote {
-	color:white;
-	font-family: 'Poiret One', cursive;
-	font-size: 25px;
-	border-left: 1px solid white; 
-}
 
 .headerQuote {
 	background-color:rgba(38, 38, 38, 0.3);
@@ -56,9 +50,6 @@ blockquote {
   	padding-left: 0px;
   	padding-right: 0px;
   }
-  #headerDiv {
-  	background-position: right;
-  }
 }
  .navbar {
       margin-bottom: 0px;
@@ -75,13 +66,6 @@ blockquote {
      position: relative;
 }
 
-.navbar-inverse{
-	border-radius:0px;
-	border:none;
-	z-index:9999 !important;
-	border-bottom: 3px solid orange;
-	border-top: 3px solid orange;
-}
 .navbar-header img {
 	height: 250px; overflow: visible;
 }
@@ -89,22 +73,18 @@ blockquote {
  	font-size: 25px;
  	font-family: 'Jura', sans-serif;
  	font-variant: small-caps;
+ 	margin-left: 10px;
+ 	margin-right: 10px;
 }
 
 #myNavbar a {
- text-align: center;
- border-radius:0px 0px 4px 4px;
- color:orange;
- padding:20px 20px 0px 20px;
- line-height: 40px;
- transition-duration: 0.6s;
 }
 #myNavbar a:hover,
 #myNavbar a:active,
 #myNavbar a:focus {
- background: orange !important;
- color: black;
- text-decoration:overline;
+
+ background-color: orange;
+ color: white;
 }
 .comforta {
 	font-family: 'Comfortaa', cursive;
